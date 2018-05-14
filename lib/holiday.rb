@@ -2,7 +2,7 @@ require 'pry'
 
 def second_supply_for_fourth_of_july(holiday_hash)
   specificSupplies = []
-  holiday_hash.each do |season,holidays|
+  holiday_hash.each do |season, holidays|
   season.each do |holiday, supplies|
   if holiday == :fourth_of_july
     specificSupplies << supplies
