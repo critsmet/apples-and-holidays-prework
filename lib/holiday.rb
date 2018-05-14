@@ -8,10 +8,10 @@ def second_supply_for_fourth_of_july(holiday_hash)
     supplies.each do |x|
       specificSupplies << x
   end
+end
+end
+end
   return specificSupplies[1]
-end
-end
-end
 end
     
   # given that holiday_hash looks like this:
