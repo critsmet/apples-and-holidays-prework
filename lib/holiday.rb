@@ -1,7 +1,6 @@
 require 'pry'
 
 def second_supply_for_fourth_of_july(holiday_hash)
-  binding.pry
   specificSupplies = []
   holiday_hash.each do |season, holidays|
     binding.pry
